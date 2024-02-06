@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './singlePage.module.css';
 import Menu from '@/components/menu/Menu';
+import Comments from '@/components/comments/Comments';
 
 const SinglePage = () => {
     return (
@@ -31,6 +32,9 @@ const SinglePage = () => {
                     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, magnam dolore. Suscipit laudantium illum esse architecto veniam corrupti excepturi temporibus, quaerat aut impedit. Illum perspiciatis a asperiores dignissimos aliquam itaque ipsa omnis minima nemo? Id officia voluptatum inventore </p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, magnam dolore. Suscipit laudantium illum esse architecto veniam corrupti excepturi temporibus, quaerat aut impedit. Illum perspiciatis a asperiores dignissimos aliquam itaque ipsa omnis minima nemo? Id officia voluptatum inventore </p>
+                    </div>
+                    <div className={styles.comment}>
+                        <Comments/>
                     </div>
                 </div>
                 <Menu/>
